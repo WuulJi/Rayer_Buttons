@@ -1,11 +1,11 @@
 [
-    { "key": "Q", "sound": "https://wuulji.github.io/Rayer_Buttons/sound/20250225_0037_股摸寧.mp3" },
-    { "key": "W", "sound": "https://wuulji.github.io/Rayer_Buttons/sound/20250225_0037_路上小心.mp3" },
-    { "key": "E", "sound": "https://wuulji.github.io/Rayer_Buttons/sound/20250225_0039_嗨壓.mp3" },
-    { "key": "A", "sound": "https://wuulji.github.io/Rayer_Buttons/sound/20250225_0052_免費.mp3" },
-    { "key": "S", "sound": "https://wuulji.github.io/Rayer_Buttons/sound/20250225_0122_HAPPY.mp3" },
-    { "key": "D", "sound": "https://wuulji.github.io/Rayer_Buttons/sound/20250225_0123_喔喔.mp3" },
-    { "key": "Z", "sound": "https://wuulji.github.io/Rayer_Buttons/sound/20250304_0021_TSKR.mp3" },
-    { "key": "X", "sound": "https://wuulji.github.io/Rayer_Buttons/sound/20250304_0302_好餓喔.mp3" },
-    { "key": "C", "sound": "https://wuulji.github.io/Rayer_Buttons/sound/20250304_0630_兄弟你好香.mp3" }
+    { "key": "q", "sound": "https://wuulji.github.io/Rayer_Buttons/sound/20250225_0037_股摸寧.mp3" },
+    { "key": "w", "sound": "https://wuulji.github.io/Rayer_Buttons/sound/20250225_0037_路上小心.mp3" },
+    { "key": "e", "sound": "https://wuulji.github.io/Rayer_Buttons/sound/20250225_0039_嗨壓.mp3" },
+    { "key": "a", "sound": "https://wuulji.github.io/Rayer_Buttons/sound/20250225_0052_免費.mp3" },
+    { "key": "s", "sound": "https://wuulji.github.io/Rayer_Buttons/sound/20250225_0122_HAPPY.mp3" },
+    { "key": "d", "sound": "https://wuulji.github.io/Rayer_Buttons/sound/20250225_0123_喔喔.mp3" },
+    { "key": "z", "sound": "https://wuulji.github.io/Rayer_Buttons/sound/20250304_0021_TSKR.mp3" },
+    { "key": "x", "sound": "https://wuulji.github.io/Rayer_Buttons/sound/20250304_0302_好餓喔.mp3" },
+    { "key": "c", "sound": "https://wuulji.github.io/Rayer_Buttons/sound/20250304_0630_兄弟你好香.mp3" }
 ]
