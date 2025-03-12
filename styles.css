@@ -1,0 +1,65 @@
+/* 全域樣式 */
+body { 
+    text-align: center; 
+    font-family: Arial, sans-serif; 
+    background-color: #f4f4f4;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* 按鈕容器 */
+.button-container { 
+    display: grid; 
+    grid-template-columns: repeat(3, 100px); 
+    gap: 10px; 
+    justify-content: center; 
+}
+
+/* 音效按鈕 */
+.sound-button {
+    width: 100px;
+    height: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 3px solid #333;
+    border-radius: 12px;
+    background-color: #f0f0f0;
+    transition: transform 0.1s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* 滑鼠懸停時：按鈕稍微放大 */
+.sound-button:hover {
+    transform: scale(1.1);
+    background-color: #e0e0e0;
+}
+
+/* 按下時：縮小 + 背景變暗 */
+.sound-button:active {
+    transform: scale(0.9);
+    background-color: #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* 音效觸發時的動畫效果 */
+@keyframes flash {
+    0% { background-color: #ff8c8c; }
+    50% { background-color: #ff6666; }
+    100% { background-color: #ff8c8c; }
+}
+
+.playing {
+    animation: flash 0.3s ease-in-out;
+}
+
+/* 夜間模式 */
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+.dark-mode .sound-button {
+    background-color: #444;
+}
+.dark-mode .sound-button:hover {
+    background-color: #666;
+}
